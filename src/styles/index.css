@@ -1,11 +1,14 @@
-/* 
+.todo-item .delete-btn {
+  opacity: 0;
+  transition: opacity 120ms ease-in-out;
+}
+.todo-item:hover .delete-btn,
+.todo-item:focus-within .delete-btn {
+  opacity: 1;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+html,
+body,
+#root {
+  height: 100%;
+}
